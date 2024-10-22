@@ -1,0 +1,70 @@
+   /* Centering Navbar Items */
+   .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 13%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 15%;
+    padding-left: 10%;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.form-control {
+    height: 50px;
+    /* Increased height */
+    max-width: 400px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    text-align: center;
+}
+
+/* Move cards to the bottom */
+.bottom-content {
+    margin-top: 20px;
+}
+
+.hover-link {
+    color: black;
+    /* Default text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.hover-link:hover {
+    color: blue;
+    /* Change to blue on hover */
+    text-decoration: underline;
+    /* Optional: adds underline on hover */
+}
+.font-1{
+    font-size: 18px;
+}
+.active-category {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+#product-container {
+max-height: 600px; /* Aapko yeh height adjust karni padegi as per your design */
+overflow-y: auto;  /* Vertical scrolling ko enable karega agar content zyada ho */
+}
+#search-results {
+max-height: 300px;
+overflow-y: auto;
+}
